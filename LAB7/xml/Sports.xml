@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?DOCTYPE note
+[
+<!ELEMENT note (name,event,city)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT event (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+]?>
+<?xml-stylesheet type="text/xsl" href="Rules.xsl" ?>
+<participants>
+<details>
+<name> Divyank Singh detailsikarwar </name>
+<event>Top</event>
+<city> Agra </city>
+</details>
+<details>
+<name> Aniket Chauhan </name>
+<event> Jeans</event>
+<city> Shahjahanpur </city>
+</details>
+<details>
+<name> Simran Agarwal</name>
+<event> Kurta</event>
+<city> Buland Shar</city>
+</details>
+<details>
+<name> Abhay Chauhan</name>
+<event>Plazo</event>
+<city> Shahjahanpur</city>
+</details>
+<details>
+<name> Himanshu Bhatia</name>
+<event> Dress</event>
+<city> Indore</city>
+</details>
+<details>
+<name> Annanya roy</name>
+<event>Phone</event>
+<city> Kolkata</city>
+</details>
+<details>
+<name>Niharika Malviya</name>
+<event>Television</event>
+<city>UP</city>
+</details>
+<details>
+<name> Alisha</name>
+<event> Sofa</event>
+<city> Indore</city>
+</details>
+<details>
+<name>Aarti Yadav</name>
+<event>Bedsheet</event>
+<city> Hariyana</city>
+</details>
+</participants>

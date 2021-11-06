@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>COWIN APP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <img style="width: 100%;" src="https://www.cowin.gov.in/assets/images/largest-vaccine-banner.jpg" />
+        <h2>Check your nearest vaccination center and slots availability</h2>
+        <div class="form-group">
+            <label for="pin">Search By Pin:</label>
+            <input type="number" maxlength="6" class="form-control" id="pin" placeholder="Enter pin" name="pin">
+        </div>
+
+        <form method="POST" action="formpage.html">
+          <button type="submit">Search</button>
+      </form>
+
+      <form method="POST" action="formpage.html">
+        <button type="submit">Search By District</button>
+    </form>
+
+    <h1 style="font-family:Lato;font-size:50px;color:Green">Location Tracking</h1>
+
+<button onclick="getLocation()">Locate yourself</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+</body>
+
+</html>

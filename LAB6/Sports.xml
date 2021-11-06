@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE note
+[
+<!ELEMENT note (name,director,yor,lang)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT yor (#PCDATA)>
+<!ELEMENT lang (#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="Rules.xsl" ?>
+<participants>
+<details>
+<name> Tenet </name>
+<director> Christopher Nolan </director>
+<yor>2020</yor>
+<lang> English </lang>
+</details>
+<details>
+<name> Zack Snyder's Justice League </name>
+<director> Zack Snyder </director>
+<yor> 2021 </yor>
+<lang> English </lang>
+</details>
+<details>
+<name> Cinema Paradiso </name>
+<director> Giuseppe Tornatore </director>
+<yor> 1988 </yor>
+<lang> Italian </lang>
+</details>
+<details>
+<name> The Secret Life of Walter Mitty </name>
+<director> Ben Stiller </director>
+<yor> 2013 </yor>
+<lang> English </lang>
+</details>
+<details>
+<name> The Darjeeling Limited </name>
+<director> Wes Anderson </director>
+<yor> 2007 </yor>
+<lang> English </lang>
+</details>
+<details>
+<name> Red Cliff </name>
+<director> John Woo </director>
+<yor> 2007 </yor>
+<lang> Mandarin </lang>
+</details>
+<details>
+<name> Star Wars EP III : Revenge of the Sith </name>
+<director> George Lucas </director>
+<yor> 2005 </yor>
+<lang> English </lang>
+</details>
+</participants>

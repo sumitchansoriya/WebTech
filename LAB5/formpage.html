@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2 style="font-family:Montserrat;color:#0C4BBD">Fill Up the form</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="">
+</form>
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">Please select your gender:</p>
+
+<form>
+  <input type="radio" id="male" name="man" value="HTML">
+  <label for="male">male</label><br>
+  <input type="radio" id="female" name="woman" value="CSS">
+  <label for="css">female</label><br>
+  <input type="radio" id="other" name="none" value="JavaScript">
+  <label for="javascript">Rather Not specify</label>
+</form>
+
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">Please select the number of doses you have recieved:</p>
+
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have received only one dose.</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have received both the doses.</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have yet to take the vaccine.</label>
+</form>
+
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">If you have recieved a dose, or wish to take one, please specify the vaccine:</p>
+
+<label for="cars">Vaccines available:</label>
+<select name="cars" id="cars">
+  <option value="vacc1">Moderna</option>
+  <option value="vacc2">Covishield</option>
+  <option value="vacc3">Covaxin</option>
+  <option value="vacc4">Pfizer</option>
+</select>
+
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">You are required to create a password for your portal security. Please enter a password below:</p>
+
+<label for="pwd">Password(2-8 letters):</label>
+<input type="password" id="pwd" name="pwd">
+
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">Please confirm your password:</p>
+
+<label for="pwd">Confirm Password:</label>
+<input type="password" id="pwd1" name="pwd1">
+
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">Please choose a time for your appointment:</p>
+
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2021-08-12T19:30"
+       min="2021-08-07T00:00" max="2021-12-14T00:00">
+
+<p style="font-family:Montserrat;font-size:14px;color:#0C4BBD">You are done with this form.</p>
+
+<form method="POST" action="index.html">
+  <button type="submit">FINISH</button>
+</form>
+<p>Clicking on this button will take you back to the homepage.</p>
+
+</body>
+</html>

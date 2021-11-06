@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form validation using javascript</title>
+        <link rel="stylesheet" href="/style.css">        
+    </head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>SignUp To  validate your form</h1>
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+            
+           <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+
+
+            <div class="form-field">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="url">Enter url:</label>
+                <input type="text" name="url" id="url" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+               <label for="Terms">Ternms & Conditions</label><br>
+               <input type="radio" name="choice" value="yes" id="choice-yes"> 
+               <label for="choice-yes">Yes</label>
+               <input type="radio" name="choice" value="no" id="choic-no">
+               <label for="choice-no">No</label>
+               <small></small>
+           </div>
+
+            <div class="form-field">
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>
