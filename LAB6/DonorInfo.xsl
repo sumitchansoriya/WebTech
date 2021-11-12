@@ -18,7 +18,7 @@ th, td {
 tr:nth-child(even){background-color: #a8c0e3}
 
 th {
-  background-color: #2da315;
+  background-color: #c40e1d;
   color: #f0ec0c;
 }
 h1 {
@@ -32,27 +32,27 @@ h1 {
 }
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-<title>Rental Management system</title>
+<title>BDMS|Donor</title>
 </head>
 <div class="header">
-  <h1><font color="#FFFFFF" size="+4">Movie Rental Management System</font></h1>
+  <h1><font color="#FFFFFF" size="+4">Blood Donation Management System</font></h1>
 </div>
- <center><img src="movie.png" /></center>
+ <center><img src="donate-blood.jpg" /></center>
 <body>
- <h2 align="center"><font><u><b>Movies available for rentals:</b></u></font></h2>
+ <h2 align="center"><font><u><b>Donors available:</b></u></font></h2>
    <table align="center" border="1" bordercolor="#000099">
    <tr>
     <th >Name</th>
-    <th >Director</th>
-    <th >Year of Release</th>
-    <th >Language</th>
+    <th >Age</th>
+    <th >Blood Group</th>
+    <th >Address</th>
    </tr>
-    <xsl:for-each select="participants/details">
+    <xsl:for-each select="bloodbank/donor">
    <tr>
     <td ><xsl:value-of select="name"/></td>
-    <td ><xsl:value-of select="director"/></td>
-    <td ><xsl:value-of select="yor"/></td>
-    <td ><xsl:value-of select="lang"/></td>
+    <td ><xsl:value-of select="age"/></td>
+    <td ><xsl:value-of select="bgroup"/></td>
+    <td ><xsl:value-of select="address"/></td>
    </tr>
     </xsl:for-each>
     </table>

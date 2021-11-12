@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE note
+[
+<!ELEMENT note (name,age,bgroup,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT bgroup (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="DonorInfo.xsl" ?>
+<bloodbank>
+	<donor>
+		<name> Sumit Chansoriya </name>
+		<age> 25 </age>
+		<bgroup>B +ve</bgroup>
+		<address> Jhansi </address>
+	</donor>
+	<donor>
+		<name> Arpit Dhir </name>
+		<age> 26 </age>
+		<bgroup> A +ve </bgroup>
+		<address> Pune </address>
+	</donor>
+	<donor>
+		<name> Banke </name>
+		<age> 24 </age>
+		<bgroup>B -ve</bgroup>
+		<address> Bangalore </address>
+	</donor>
+	<donor>
+		<name> Samriddhi </name>
+		<age> 25 </age>
+		<bgroup> AB +ve </bgroup>
+		<address> Bangalore </address>
+	</donor>
+</bloodbank>
